@@ -29,3 +29,14 @@ The Caesar Cipher CLI is a tool for encrypting and decrypting messages using the
   - *Usage:* `--uppercase`
   - *Description:* Output the result in uppercase.
 
+# Caesar Cipher CLI Usage
+
+To use the Caesar Cipher CLI, you can either fork this repository or run it in Codespaces. Follow the steps below to encrypt and decrypt messages using the Caesar cipher.
+
+## Clone the Repository (if not forking or using Codespaces)
+
+```bash
+git clone https://github.com/osama-shawir/Caesar-Cipher-CLI-in-Rust.git
+cd caesar_cipher_cli
+
+
