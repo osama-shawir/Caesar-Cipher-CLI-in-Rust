@@ -29,9 +29,3 @@ The Caesar Cipher CLI is a tool for encrypting and decrypting messages using the
   - *Usage:* `--uppercase`
   - *Description:* Output the result in uppercase.
 
-### How It Works
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your_username/caesar_cipher_cli.git
-
