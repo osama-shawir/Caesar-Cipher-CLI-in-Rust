@@ -10,7 +10,6 @@ cargo run --  --message "Ypp dy dro lexuob. Ofobi zobcyx pyb drowcovfoc" --decry
 
 */
 
-
 use caeser_cipher_cli::{decrypt, encrypt};
 use clap::Parser;
 
@@ -34,16 +33,32 @@ struct Args {
     /// Must be between 1 and 25, the default is 3
     #[arg(short, long, default_value = "3")]
     shift: u8,
+
+    /// Whether to output the result in uppercase
+    #[arg(short, long)]
+    uppercase: bool,
 }
 
 // run it
 fn main() {
     let args = Args::parse();
     if args.encrypt {
-        println!("{}", encrypt(&args.message, args.shift));
+        let result = encrypt(&args.message, args.shift);
+        if args.uppercase {
+            println!("{}", result.to_uppercase());
+        } else {
+            println!("{}", result);
+        }
     } else if args.decrypt {
-        println!("{}", decrypt(&args.message, args.shift));
+        let result = decrypt(&args.message, args.shift);
+        if args.uppercase {
+            println!("{}", result.to_uppercase());
+        } else {
+            println!("{}", result);
+        }
     } else {
         println!("Please specify either --encrypt or --decrypt");
     }
+
+    println!("Thank you for using the caeser cipher CLI!");
 }
