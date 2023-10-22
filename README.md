@@ -1,5 +1,5 @@
-[![Clippy](https://github.com/nogibjj/rust-data-engineering/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/rust-data-engineering/actions/workflows/lint.yml)
-[![Tests](https://github.com/nogibjj/rust-data-engineering/actions/workflows/tests.yml/badge.svg)](https://github.com/nogibjj/rust-data-engineering/actions/workflows/tests.yml)
+[![Clippy](https://github.com/osama-shawir/Caesar-Cipher-CLI-in-Rust/actions/workflows/lint.yml/badge.svg)](https://github.com/osama-shawir/Caesar-Cipher-CLI-in-Rust/actions/workflows/lint.yml)
+[![Tests](https://github.com/osama-shawir/Caesar-Cipher-CLI-in-Rust/actions/workflows/tests.yml/badge.svg)](https://github.com/osama-shawir/Caesar-Cipher-CLI-in-Rust/actions/workflows/tests.yml)
 
 ## Caesar Cipher CLI Overview
 
